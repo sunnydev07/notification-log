@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Notification Log</string>
+    <string name="listener_service_label">Capture notification history</string>
+
+    <string name="access_needed_title">Notification access needed</string>
+    <!-- Prominent-disclosure copy (Play User Data policy): must state WHAT is
+         read, WHERE it goes, and that it never leaves the device BEFORE the
+         user is sent to grant access. Wording mirrors the privacy policy. -->
+    <string name="access_needed_body">To save your notification history, this app reads
+incoming notifications — their title, text, and sending app — and stores them on
+this device only. Nothing is uploaded, shared, or synced. You can review or delete
+everything anytime.</string>
+    <string name="grant_access_button">Open Notification Access settings</string>
+
+    <string name="access_granted_title">Capturing notifications</string>
+    <string name="access_granted_body">Access granted. Notifications are being saved on this device.</string>
+
+    <string name="search_hint">Search notifications</string>
+    <string name="clear_search">Clear search</string>
+    <string name="loading_history">Loading history…</string>
+
+    <string name="empty_history_title">Nothing captured yet</string>
+    <string name="empty_history_body">Notifications you receive will show up here automatically — even while the app is closed.</string>
+
+    <string name="empty_results_title">No matches</string>
+    <string name="empty_results_body">Nothing in your history matches \"%1$s\".</string>
+
+    <string name="error_generic">Couldn\'t read your notification history. Please try again.</string>
+
+    <string name="battery_banner_title">Keep capturing in the background</string>
+    <string name="battery_banner_body">Android\'s battery saver may silently stop this app to
+save power, which pauses your notification history. Exempting it from battery
+optimization keeps capture running reliably.</string>
+    <string name="battery_banner_action">Allow</string>
+    <string name="battery_banner_dismiss">Dismiss battery optimization hint</string>
+
+    <string name="delete_notification">Delete this notification from history</string>
+    <string name="clear_all_history">Clear all history</string>
+    <string name="clear_all_dialog_title">Clear entire history?</string>
+    <string name="clear_all_dialog_body">All captured notifications will be permanently deleted
+from this device. This cannot be undone.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="clear_all_confirm">Clear all</string>
+
+    <!-- Phase 7: overflow menu + Pro upgrade -->
+    <string name="more_options">More options</string>
+    <string name="menu_upgrade">Upgrade to Pro</string>
+    <string name="menu_pro_active">Pro is active</string>
+    <string name="menu_export_csv">Export CSV…</string>
+    <string name="upgrade_dialog_title">Notification Log Pro</string>
+    <string name="upgrade_dialog_feature">Unlocks CSV export of your entire notification
+history. Everything else — capture, search, privacy — stays free and identical.</string>
+    <string name="upgrade_dialog_price_unavailable">Price unavailable (Play Store not
+reachable). Try again later.</string>
+    <string name="upgrade_dialog_pending">Your purchase is pending payment. Pro unlocks
+automatically once it completes.</string>
+    <string name="buy_button">Buy %1$s</string>
+    <string name="buy_button_no_price">Buy</string>
+    <string name="not_now_button">Not now</string>
+
+    <!-- Toast feedback -->
+    <string name="export_success">History exported</string>
+    <string name="export_failed">Export failed — nothing was written</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- Plain framework theme (no AppCompat dependency needed for Compose). -->
+    <style name="Theme.NotificationLog" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
